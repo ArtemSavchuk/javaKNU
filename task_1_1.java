@@ -1,22 +1,22 @@
-package hw1;
+package cl3;
 
 public class task_1_1 {
-    static int x;
-    static char c;
-    static String s;
-    public static void main(String[] args) {
-        task_1_1 v = new task_1_1();
-        task_1_1 v2 = new task_1_1();
-        // int x ;
-        // char c;
-        // String s ;
-        x++;
-        System.out.println(x);
-        System.out.println(c);
-        System.out.println(s);
 
-        System.out.println(v2.x);
-        System.out.println(v2.c);
-        System.out.println(v2.s);
+    static int a;
+    static float f;
+    static String s;
+    static boolean b;
+    static byte b1;
+    static double d;
+    static short s1;
+    static long l;
+    static char c;
+    public static void main(String[] args) 
+    {
+        
+
+        System.out.println("int: " + a + " float: " + f + " String: " + s + " bool: " + b + " byte: " + b1);
+        System.out.println("double: " + d + " short: " + s1 + " long: " + l + " char: " + c);
+ 
     }
 }
